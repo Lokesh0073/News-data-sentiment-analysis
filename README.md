@@ -33,7 +33,6 @@ venv\Scripts\activate    # For Windows
 pip install -r requirements.txt
 
 4. Create a .env file in the root directory and add your API key:
-
 API_KEY=your_newsapi_key
 
 
