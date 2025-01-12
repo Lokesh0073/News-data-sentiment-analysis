@@ -1,0 +1,17 @@
+# Ignore sensitive files
+# .env.example
+.env
+config.py
+
+# Ignore virtual environments
+venv/
+
+# Ignore system files
+__pycache__/
+.DS_Store
+
+app.py
+data.ipynb
+demo.py
+news_data_sentiment_analysis.py
+news_sentiment.csv
