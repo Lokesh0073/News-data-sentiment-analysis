@@ -19,26 +19,26 @@ This is a Streamlit-based web application that fetches news articles using the N
 ### Setup
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/news-sentiment-analysis.git
-   cd news-sentiment-analysis
+      ```bash
+      git clone https://github.com/your-username/news-sentiment-analysis.git
+      cd news-sentiment-analysis
 
 
 2. Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate # For Linux/MacOS
-venv\Scripts\activate    # For Windows
+   python -m venv venv
+   source venv/bin/activate # For Linux/MacOS
+   venv\Scripts\activate    # For Windows
 
-3. Install the required packages:
-pip install -r requirements.txt
+4. Install the required packages:
+   pip install -r requirements.txt
 
-4. Create a .env file in the root directory and add your API key:
-API_KEY=your_newsapi_key
+5. Create a .env file in the root directory and add your API key:
+   API_KEY=your_newsapi_key
 
 
 Run the App
 Start the Streamlit app:
-streamlit run news_data_sentiment_analysis_filter.py
+   streamlit run news_data_sentiment_analysis_filter.py
 
 
 Using the App
